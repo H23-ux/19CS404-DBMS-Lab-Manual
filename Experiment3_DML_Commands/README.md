@@ -47,15 +47,31 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 --
--- Paste Question 1 here
+-- Write a SQL statement to update the product_name as 'Grapefruit' whose product_id is 4 in the products table.
+
+products table
+
+---------------
+
+product_id
+
+product_name
+
+category_id
+
+availability
 
 ```sql
--- Paste your SQL code below for Question 1
+-- 
+UPDATE products
+SET product_name='Grapefruit'
+WHERE product_id=4;
 ```
 
 **Output:**
 
-![Output1](output.png)
+![Output1](<img width="1185" height="255" alt="image" src="https://github.com/user-attachments/assets/65b83084-5db1-4e83-96d8-aa6da323bec0" />
+)
 
 **Question 2**
 ---
